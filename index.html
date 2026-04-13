@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Geovana (Analista de Dados)</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900&display=swap' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- HEADER E NAVEGAÇÃO -->
+    <header class="header-nav" role="banner">
+        <div class="logo">Análise.Data</div>
+        <div class="nav-right">
+            <button class="theme-toggle" id="theme-toggle" aria-label="Alternar Tema" aria-pressed="false">
+                <i class="fas fa-circle-half-stroke"></i>
+            </button>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir Menu" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <nav class="nav-links" id="main-nav-links" role="navigation" aria-label="Navegação Principal">
+            <a href="#sobre-e-habilidades">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato-section">Contato</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- SEÇÃO SOBRE E HABILIDADES -->
+        <section id="sobre-e-habilidades" class="section-hero">
+            <div class="hero-layout">
+                <div class="hero-text">
+                    <h1 class="animate-in">Olá, eu sou a <span class="highlight">Geovana</span></h1>
+
+                    <p class="hero-subtitle">
+                        <strong>Analista de Dados em formação</strong>
+                    </p>
+                    <p class="hero-description">
+                        Desenvolvo análises guiadas por dados, unindo estatística, métricas de negócio e boas práticas
+                        de visualização para transformar informações em insights estratégicos. Tenho experiência com
+                        Power BI, Excel e bancos de dados relacionais.
+                    </p>
+
+                </div>
+            </div>
+
+            <!-- SEÇÃO DE HABILIDADES -->
+            <div class="habilidades-bloco">
+                <h2>Habilidades</h2>
+                <div class="skills-grid">
+                    <div class="skill-box">
+                        <h3>Principais</h3>
+                        <ul>
+                            <li>Power BI (Dashboards, DAX, Power Query, Linguagem M – básico)</li>
+                            <li>Excel Avançado</li>
+                            <li>SQL e Banco de Dados Relacionais</li>
+                            <li>Estatística Descritiva e Inferencial</li>
+                            <li>KPIs e Métricas de Negócio</li>
+                            <li>Análises Descritiva (Domínio) e Preditiva (Nível introdutório)</li>
+                            <li>Fundamentos de Machine Learning (preparação de dados, Isolation Forest)</li>
+                            <li>Estatística Aplicada (testes de hipótese, regressão, testes A/B, distribuições)</li>
+                        </ul>
+                    </div>
+                    <div class="skill-box">
+                        <h3>Em Desenvolvimento</h3>
+                        <ul>
+                            
+                            <li>APIs e Web Scraping</li>
+                            <li>Python (Pandas, NumPy, automação de arquivos, funções, limpeza e transformação)</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="skills-note">
+                    *Python integra meu fluxo como ferramenta complementar com futuras aplicações de Machine Learning.
+                </p>
+            </div>
+        </section>
+
+        <!-- SEÇÃO PROJETOS -->
+        <section id="projetos" class="section-projects">
+            <div class="projetos-header">
+                <span class="subtitle">PROJETOS</span>
+                <h2>Dê uma olhada nos meus projetos</h2>
+            </div>
+            <div class="cards-modern">
+
+                <!-- Card 1: Dashboard de Vendas + RFM (FINALIZADO) -->
+                <div class="card-modern card-completed">
+                    <span class="tech-badge" title="Power BI"><i class="fas fa-chart-bar"></i></span>
+                    <div class="project-image-placeholder">
+                        <p>Dashboard de análise de clientes e receita com RFM</p>
+                    </div>
+                    <div class="card-status">
+                        <span class="date completed">✅ Finalizado</span>
+                        <span class="badge-insight">RFM & Análise</span>
+                    </div>
+                    <h3>De dados brutos a insights estratégicos</h3>
+                    <p class="project-description">Aplicação de RFM e análise de outliers para identificar padrões de alto valor. 13% dos clientes concentram ~30% da receita, gerando insights estratégicos para decisões de marketing.</p>
+                    <div class="insight-block">
+                        <p style="margin-top: 0.75rem; font-size: 0.8rem;"><strong>Ferramentas:</strong> Excel, Power Query (M), Power BI (DAX) e IA</p>
+                    </div>
+                    <div class="project-action">
+                        <a href="https://app.powerbi.com/groups/me/reports/a8b62037-7f67-4329-8e6a-1f46a9820c94?language=pt-BR&redirectedFromSignup=1&experience=power-bi" target="_blank" rel="noopener noreferrer" class="btn-view-project" title="Abrir Dashboard no Power BI">
+                            <i class="fas fa-external-link-alt"></i> Ver Projeto
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 2: Modelo Estatístico -->
+                               <div class="card-modern card-placeholder" style="opacity: 0.9;">
+                    <span class="tech-badge" title="Estatística e Python"><i class="fab fa-python"></i></span>
+                    <div class="project-image-placeholder">
+                        <p>Análise Estatística</p>
+                    </div>
+                    <span class="date">🔧 Em construção</span>
+                    <h3>Modelo Estatístico de Previsão</h3>
+                    <p class="project-description">Regressão simples para prever vendas/demanda com análise estatística.</p>
+                </div>
+
+                <!-- Card 3: Análise Operacional -->
+               <div class="card-modern card-placeholder" style="opacity: 0.9;">
+                    <span class="tech-badge" title="SQL e Logística"><i class="fas fa-database"></i></span>
+                    <div class="project-image-placeholder">
+                        <p>KPIs Logísticos</p>
+                    </div>
+                    <span class="date">🔧 Em construção</span>
+                    <h3>Análise Operacional/Logística</h3>
+                    <p class="project-description">KPIs de eficiência, análise de gargalos e visualizações para operações.</p>
+                </div>
+            </div>
+
+            <div class="btn-all-projects">
+                <a href="todos_os_projetos.html" class="btn-secondary">
+                    Ver todos os projetos →
+                </a>
+            </div>
+        </section>
+
+        <!-- SEÇÃO CONTATO -->
+        <section id="contato-section" class="section-contact">
+            <h2>Vamos conversar!</h2>
+            <p class="contact-description">
+                Estou sempre aberta a novas oportunidades e colaborações. Entre em contato!
+            </p>
+            <a href="mailto:geovanacarrascodasilvage@gmail.com" class="btn-primary">
+                Enviar um Email <i class="fas fa-envelope"></i>
+            </a>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer role="contentinfo">
+        <div class="social-links">
+            <a href="https://github.com/Geovanatech" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/geovana-carrasco-da-silva-4b9032358/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://medium.com/@geovanacarrasco" target="_blank" rel="noopener noreferrer" aria-label="Medium">
+                <i class="fab fa-medium-m"></i>
+            </a>
+        </div>
+        <p>&copy; 2025 Geovana Carrasco da Silva — Portfólio de Análise de Dados</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

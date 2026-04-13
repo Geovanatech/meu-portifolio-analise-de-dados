@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos os Projetos - Geovana</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- HEADER E NAVEGAÇÃO -->
+    <header class="header-nav" role="banner">
+        <div class="logo">Projetos.Data</div>
+        <div class="nav-right">
+            <button class="theme-toggle" id="theme-toggle" aria-label="Alternar Tema" aria-pressed="false">
+                <i class="fas fa-circle-half-stroke"></i>
+            </button>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir Menu" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <nav class="nav-links" id="main-nav-links" role="navigation" aria-label="Navegação Principal">
+            <a href="index.html">Voltar</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- SEÇÃO TODOS OS PROJETOS -->
+        <section id="projetos-todos" class="section-all-projects">
+            <div class="projetos-header">
+                <span class="subtitle">PORTFÓLIO COMPLETO</span>
+                <h1>Todos os Meus Projetos de Análise de Dados</h1>
+            </div>
+
+            <div class="cards-modern">
+                <!-- Card 1: Dashboard de Vendas + RFM (FINALIZADO) -->
+                <div class="card-modern card-completed">
+                    <span class="tech-badge" title="Power BI"><i class="fas fa-chart-bar"></i></span>
+                    <div class="project-image-placeholder">
+                        <p>Dashboard de Vendas</p>
+                    </div>
+                    <div class="card-status">
+                        <span class="date completed">✅ Finalizado</span>
+                        <span class="badge-insight">RFM & Análise</span>
+                    </div>
+                    <h3>De dados brutos a insights estratégicos</h3>
+                    <p class="project-description">Análise de clientes com RFM e tratamento de outliers via IQR para identificar padrões de consumo. Identifiquei que 13% dos clientes geram ~30% da receita, revelando oportunidades estratégicas para segmentação e marketing.</p>
+                    <div class="insight-block">
+                        <p><strong>💡 Aprendizado Principal:</strong> A limpeza de dados é uma etapa estratégica da análise, onde padrões relevantes emergem. No contexto de marketing, valores atípicos podem representar os segmentos de maior valor para o negócio.</p>
+                        <p style="margin-top: 0.75rem; font-size: 0.8rem;"><strong>Ferramentas:</strong> Excel, Power Query (M), Power BI (DAX) e IA</p>
+                    </div>
+                    <div class="project-action">
+                        <button class="btn-view-project" onclick="window.open('https://app.powerbi.com/groups/me/reports/a8b62037-7f67-4329-8e6a-1f46a9820c94?language=pt-BR&redirectedFromSignup=1&experience=power-bi', '_blank')" title="Abrir Dashboard no Power BI">
+                            <i class="fas fa-external-link-alt"></i> Ver Projeto
+                        </button>
+                    </div>
+            
+                </div>
+
+
+                <!-- Card 2: Modelo Estatístico -->
+                 <!-- Card 2: Modelo Estatístico -->
+                <div class="card-modern card-placeholder" style="opacity: 0.9; cursor: default;">
+                    <span class="tech-badge" title="Estatística e Python"><i class="fab fa-python"></i></span>
+                    <div class="project-image-placeholder">
+                        <p>Análise Estatística</p>
+                    </div>
+                    <span class="date">🔧 Em construção</span>
+                    <h3>Modelo Estatístico de Previsão</h3>
+                    <p class="project-description">Regressão simples para prever vendas/demanda com análise estatística.</p>
+                </div>
+
+                <!-- Card 3: Análise Operacional -->
+              <div class="card-modern card-placeholder" style="opacity: 0.9; cursor: default;">
+                    <span class="tech-badge" title="SQL e Logística"><i class="fas fa-database"></i></span>
+                    <div class="project-image-placeholder">
+                        <p>KPIs Logísticos</p>
+                    </div>
+                    <span class="date">🔧 Em construção</span>
+                    <h3>Análise Operacional/Logística</h3>
+                    <p class="project-description">KPIs de eficiência, análise de gargalos e visualizações para operações.</p>
+                </div>
+
+                <!-- Card 4: Projeto Futuro (ML) -->
+                <div class="card-modern card-placeholder">
+                    <span class="tech-badge" title="Python e ML"><i class="fas fa-brain"></i></span>
+                    <div class="project-image-placeholder" style="background: linear-gradient(135deg, #0d47a1 0%, #7550ff 100%);">
+                        <p>Projeto Futuro</p>
+                    </div>
+                    <span class="date">📅 Planejando</span>
+                    <h3>Machine Learning Avançado</h3>
+                    <p class="project-description">Modelos preditivos com técnicas avançadas de ML.</p>
+                </div>
+
+                <!-- Card 5: Projeto Futuro (Visualização) -->
+                <div class="card-modern card-placeholder">
+                    <span class="tech-badge" title="Visualização"><i class="fas fa-palette"></i></span>
+                    <div class="project-image-placeholder" style="background: linear-gradient(135deg, #2ecc71 0%, #16a085 100%);">
+                        <p>Projeto Futuro</p>
+                    </div>
+                    <span class="date">📅 Planejando</span>
+                    <h3>Visualizações Interativas</h3>
+                    <p class="project-description">Dashboards e visualizações de dados avançadas.</p>
+                </div>
+            </div>
+
+            <div class="btn-all-projects">
+                <a href="index.html" class="btn-back">
+                    <i class="fas fa-arrow-left"></i> Retornar para o Portfólio Principal
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer role="contentinfo">
+        <div class="social-links">
+            <a href="https://github.com/Geovanatech" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/geovana-carrasco-da-silva-4b9032358/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://medium.com/@geovanacarrasco" target="_blank" rel="noopener noreferrer" aria-label="Medium">
+                <i class="fab fa-medium-m"></i>
+            </a>
+            <a href="mailto:geovanacarrascodasilvage@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+        <p>&copy; 2025 Geovana Carrasco Da Silva — Portfólio de Análise de Dados</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
